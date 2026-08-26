@@ -8,21 +8,23 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h2>Feedback Form</h2>
 	<form>
 		<div>
 			<label for="name">Name</label>
-			<input type="text" id="name">
+			<input type="text" minlength="3" maxlength="50" id="name">
 		</div>
 		<div>
-			<label for="portfolio"><a href="https://course.acciojob.com">Portfolio</a></label>
+			<label for="portfolio">Portfolio</label>
+			<input type="url" id="portfolio" placeholder="https://course.acciojob.com/">
 		</div>
 		<div>
 			<label for="favcolor">Favorite Color</label>
-			<input type="text" id="favcolor">
+			<input type="color" id="favcolor">
 		</div>
 		<div>
 			<label for="likeness">Likeness</label>
-			<input type="range" min="1" max="10" id="likeness">
+			<input type="range" min="1" max="100" id="likeness">
 		</div>
 	</form>
     <script type="text/javascript" src="./script.js">
